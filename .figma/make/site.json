@@ -1,0 +1,11 @@
+{
+  "title": "hhhhhhhh",
+  "description": "Streamline service management for clients, professionals, and administrators with features for scheduling, payments, and performance tracking.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

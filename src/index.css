@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: #2d3a22;
+  --color-foreground: #FAF7F5;
+  --color-card: #222d1a;
+  --color-card-foreground: #FAF7F5;
+  --color-primary: #D898B6; /* Rosa mais aparente e vibrante */
+  --color-primary-foreground: #222d1a;
+  --color-secondary: #3b4a2d;
+  --color-secondary-foreground: #FAF7F5;
+  --color-muted: #3b492d;
+  --color-muted-foreground: #a5b597;
+  --color-accent: #E5B2CA;
+  --color-accent-foreground: #222d1a;
+  --color-border: #435433;
+  --color-ring: #D898B6;
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+@layer base {
+  :root {
+    --background: #2d3a22;
+    --foreground: #FAF7F5;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
